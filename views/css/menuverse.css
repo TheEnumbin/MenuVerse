@@ -1,3 +1,7 @@
+.menuverse-wrapper {
+    display: inline-flex;
+}
+
 .menuverse {
     list-style: none;
     margin: 0;
@@ -7,8 +11,9 @@
     background: #ffffff;
 }
 
-.menuverse > .menuverse-item {
+.menuverse .menuverse-item {
     position: relative;
+    padding: 10px;
 }
 
 .menuverse-link {
@@ -46,6 +51,7 @@
     transform: translateY(10px);
     transition: all 0.25s ease;
     z-index: 50;
+    padding: 14px;
 }
 
 .menuverse-item:hover > .menuverse-submenu,
