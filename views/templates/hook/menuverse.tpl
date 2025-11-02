@@ -1,7 +1,7 @@
 <div class="menuverse-wrapper">
     <ul class="menuverse">
     {foreach $menuverse_menu as $item}
-        <li class="menuverse-item">
+        <li class="menuverse-item {$item.class}">
             <a href="{$item.link}" class="menuverse-link">
                 <span class="menuverse-title">{$item.title}</span>
                 {if $item.subtitle}<span class="menuverse-subtitle">{$item.subtitle}</span>{/if}

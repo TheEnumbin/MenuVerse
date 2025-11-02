@@ -66,3 +66,13 @@
     left: 100%;
     top: 0;
 }
+
+#header .omniverse-menu:hover > a,  #header .omniverse-menu .menuverse-submenu .menuverse-item:hover > a{
+    color: #00536b;
+    text-decoration: underline;
+}
+
+#header .infofield-menu:hover > a,  #header .infofield-menu .menuverse-submenu .menuverse-item:hover > a{
+    color: #F16736;
+    text-decoration: underline;
+}
